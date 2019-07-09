@@ -54,7 +54,7 @@ else:
 >>>fecha
 datetime.datetime(2017, 11, 8, 17, 0)
 ```
-##Cómo convertir un datetime en un string
+## Cómo convertir un datetime en un string
 ```python
 >>>from datetime import datetime
 >>>fecha = datetime(2017, 11, 8, 17, 0)
