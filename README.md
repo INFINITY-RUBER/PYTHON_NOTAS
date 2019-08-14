@@ -62,3 +62,78 @@ datetime.datetime(2017, 11, 8, 17, 0)
 >>>fecha_str
 '08/11/2017 17:00:00'
 ```
+## Cómo mezclar dos diccionarios en una sola expresión
+```
+# Cómo mezclar dos diccionarios
+# en una sola expresión
+# A partir de Python 3.5
+>>> x = {'a':1, 'b': 2}
+>>> y = {'b':3, 'c': 4}
+>>> z = {**x, **y}
+>>> z
+{'a': 1, 'b': 3, 'c': 4}
+# Antes de Python 3.5
+>>> z = x.copy()
+>>> z.update(y)
+>>> z
+{'a': 1, 'b': 3, 'c': 4}
+# NOTA: Los valores de y
+# sobreescriben los de x
+```
+## Contar las ocurrencias de un elemento en una lista
+```
+# Contar las ocurrencias de un
+# elemento en una lista
+# Ocurrencias de un solo elemento
+>>> l = ["a", "b", "c", "b", "d"]
+>>> l.count("b")
+2
+# Ocurrencias de todos los elementos
+>>> from collections import Counter
+>>> Counter(l)
+Counter({'b': 2, 'a': 1, 'c': 1, 'd': 1})
+```
+## Generar una cadena separada por comas a partir de los elementos de una lista
+```
+# Generar una cadena separada por comas
+# a partir de los elementos de una lista
+# Si es una lista de cadenas
+>>> l = ['elementos', 'separados', 'por', 'comas']
+>>> l_str = ','.join(l)
+>>> l_str
+'elementos,separados,por,comas'
+# Si no es una lista de cadenas (int, float, ...)
+>>> l = [1, 2, 3, 4]
+>>> l_str = ','.join(map(str, l))
+>>> l_str
+'1,2,3,4'
+```
+## Eliminar duplicados de una lista
+```
+# Eliminar duplicados de una lista
+>>> l = [1, 2, 3, 1, 4, 2, 1]
+>>> l = list(set(l))
+>>> l
+[1, 2, 3, 4] 
+```
+## Truncar el tiempo en un objeto DateTime
+```
+# Truncar el tiempo en un objeto DateTime
+# Por ej: Quitar los segundos y microsegundos
+>>> from datetime import datetime
+>>> ahora = datetime.now()
+>>> ahora
+datetime.datetime(2018, 12, 14, 8, 18, 20, 610516)
+>>> ahora = ahora.replace(second=0, microsecond=0)
+>>> ahora
+datetime.datetime(2018, 12, 14, 8, 18)
+```
+##
+```
+```
+##
+```
+```
+##
+```
+```
