@@ -27,15 +27,23 @@ else:
     print("No contiene elementos")
  ```
  ## Cómo clonar o copiar un objeto list usando la operación de copia de la clase list
-`>>>new_list = old_list.copy()`
+```python
+>>>new_list = old_list.copy()
+```
 ### Creando una nueva lista
-`>>>new_list = list(old_list)`
+```python
+>>>new_list = list(old_list)
+```
 ### Usando el método genérico del módulo copy
-`>>>import copy`
-`>>>new_list = copy.copy(old_list)`
+```python
+>>>import copy
+>>>new_list = copy.copy(old_list)
+```
 ### Usa deepcopy si la lista contiene objetos y también quieres una copia de los mismos
-`>>>import copy`
-`>>>new_list = copy.deepcopy(old_list)`
+```python
+>>>import copy
+>>>new_list = copy.deepcopy(old_list)
+```
 ## Cómo usar el operador ternario en Python
 **`a if condition else b`**
 #### Por ejemplo:
@@ -63,7 +71,7 @@ datetime.datetime(2017, 11, 8, 17, 0)
 '08/11/2017 17:00:00'
 ```
 ## Cómo mezclar dos diccionarios en una sola expresión
-```
+```python
 # Cómo mezclar dos diccionarios
 # en una sola expresión
 # A partir de Python 3.5
@@ -81,7 +89,7 @@ datetime.datetime(2017, 11, 8, 17, 0)
 # sobreescriben los de x
 ```
 ## Contar las ocurrencias de un elemento en una lista
-```
+```python
 # Contar las ocurrencias de un
 # elemento en una lista
 # Ocurrencias de un solo elemento
@@ -94,7 +102,7 @@ datetime.datetime(2017, 11, 8, 17, 0)
 Counter({'b': 2, 'a': 1, 'c': 1, 'd': 1})
 ```
 ## Generar una cadena separada por comas a partir de los elementos de una lista
-```
+```python
 # Generar una cadena separada por comas
 # a partir de los elementos de una lista
 # Si es una lista de cadenas
@@ -109,7 +117,7 @@ Counter({'b': 2, 'a': 1, 'c': 1, 'd': 1})
 '1,2,3,4'
 ```
 ## Eliminar duplicados de una lista
-```
+```python
 # Eliminar duplicados de una lista
 >>> l = [1, 2, 3, 1, 4, 2, 1]
 >>> l = list(set(l))
@@ -117,7 +125,7 @@ Counter({'b': 2, 'a': 1, 'c': 1, 'd': 1})
 [1, 2, 3, 4] 
 ```
 ## Truncar el tiempo en un objeto DateTime
-```
+```python
 # Truncar el tiempo en un objeto DateTime
 # Por ej: Quitar los segundos y microsegundos
 >>> from datetime import datetime
