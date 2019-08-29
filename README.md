@@ -136,6 +136,19 @@ datetime.datetime(2018, 12, 14, 8, 18, 20, 610516)
 >>> ahora
 datetime.datetime(2018, 12, 14, 8, 18)
 ```
+## Ordenar una lista de diccionarios por un valor del diccionario
+```
+# Ordenar una lista de diccionarios
+# por un valor del diccionario
+>>> l = [{"ciudad": "Madrid", "temp": 18}, {"ciudad": "París", "temp": 9}]
+>>> l
+[{'ciudad': 'Madrid', 'temp': 18}, {'ciudad': 'París', 'temp': 9}]
+
+>>> import operator
+>>> l = sorted(l, key=operator.itemgetter('temp'))
+>>> l
+[{'ciudad': 'París', 'temp': 9}, {'ciudad': 'Madrid', 'temp': 18}]
+```
 ##
 ```
 ```
