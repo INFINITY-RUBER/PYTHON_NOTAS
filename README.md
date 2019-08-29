@@ -2,7 +2,8 @@
 Notas de repaso para  No olvidar los comandos basicos de Soy Pythonista 🐍
 ## Tabla de Contenido<!-- omit in toc -->
 -[La forma más sencilla para generar un secreto o API KEY en Python 2.x](#La-forma-más-sencilla-para-generar-un-secreto-o-API-KEY-en-Python-2.x)
-- [Beneficios de Git](#beneficios-de-git)
+-[La forma más sencilla para generar un secreto o API KEY en Python 3.x](#La-forma-más-sencilla-para-generar-un-secreto-o-API-KEY-en-Python-3.x)
+-[Cómo comprobar en Python si una lista o diccionario están vacíos](#Cómo comprobar en Python si una lista o diccionario están vacíos)
 
 -Si estás usando la versión 2.x de Python y quieres hacer uso de caractéres NO-ASCII en tu código, no olvides añadir la siguiente línea al principio de tu script 
 Por ejemplo:
