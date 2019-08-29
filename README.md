@@ -159,8 +159,10 @@ datetime.datetime(2018, 12, 14, 8, 18)
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
-##
+## Remplazar un caracter de una cadena
 ```python
+string = 'Hola    mundo'
+print(string.replace(' ', ''))
 ```
 ##
 ```python
