@@ -1,5 +1,8 @@
 # PYTHON_NOTAS
 Notas de repaso para  No olvidar los comandos basicos de Soy Pythonista 🐍
+## Tabla de Contenido<!-- omit in toc -->
+-[La forma más sencilla para generar un secreto o API KEY en Python 2.x](#La-forma-más-sencilla-para-generar-un-secreto-o-API-KEY-en-Python-2.x)
+- [Beneficios de Git](#beneficios-de-git)
 
 -Si estás usando la versión 2.x de Python y quieres hacer uso de caractéres NO-ASCII en tu código, no olvides añadir la siguiente línea al principio de tu script 
 Por ejemplo:
@@ -137,7 +140,7 @@ datetime.datetime(2018, 12, 14, 8, 18, 20, 610516)
 datetime.datetime(2018, 12, 14, 8, 18)
 ```
 ## Ordenar una lista de diccionarios por un valor del diccionario
-```
+```python
 # Ordenar una lista de diccionarios
 # por un valor del diccionario
 >>> l = [{"ciudad": "Madrid", "temp": 18}, {"ciudad": "París", "temp": 9}]
@@ -149,9 +152,22 @@ datetime.datetime(2018, 12, 14, 8, 18)
 >>> l
 [{'ciudad': 'París', 'temp': 9}, {'ciudad': 'Madrid', 'temp': 18}]
 ```
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 ##
+```python
 ```
+##
+```python
 ```
+##
+```python
+```
+##
+```python
+```
+
 ##
 ```
 ```
