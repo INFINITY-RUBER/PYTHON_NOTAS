@@ -164,8 +164,16 @@ datetime.datetime(2018, 12, 14, 8, 18)
 string = 'Hola    mundo'
 print(string.replace(' ', ''))
 ```
-##
+## Comprobar si un string es un número (int o float)
 ```python
+# Comprobar si un string es un
+# número (int, float)
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
 ```
 ##
 ```python
