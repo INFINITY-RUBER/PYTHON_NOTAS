@@ -156,18 +156,17 @@ datetime.datetime(2018, 12, 14, 8, 18)
 >>> l
 [{'ciudad': 'París', 'temp': 9}, {'ciudad': 'Madrid', 'temp': 18}]
 ```
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
+
 ## Remplazar un caracter de una cadena
 ```python
 string = 'Hola    mundo'
 print(string.replace(' ', ''))
 ```
+
 ## Comprobar si un string es un número (int o float)
 ```python
-# Comprobar si un string es un
-# número (int, float)
+#Comprobar si un string es un
+#número (int, float)
 def is_number(s):
     try:
         float(s)
@@ -175,6 +174,10 @@ def is_number(s):
     except ValueError:
         return False
 ```
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ##
 ```python
 ```
