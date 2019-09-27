@@ -178,8 +178,21 @@ def is_number(s):
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-##
+## Dividir un string en una lista
 ```python
+# Dividir un string en una lista
+>>> texto = "Hola pythonista, ¿todo bien?"
+>>> palabras = texto.split()
+>>> palabras
+['Hola', 'pythonista,', '¿todo', 'bien?']
+
+
+# Usa un delimitador personalizado
+
+>>> palabras = texto.split(",")
+>>> palabras
+['Hola pythonista', ' ¿todo bien?']
+
 ```
 ##
 ```python
