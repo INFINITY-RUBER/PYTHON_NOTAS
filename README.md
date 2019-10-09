@@ -194,7 +194,16 @@ def is_number(s):
 ['Hola pythonista', ' ¿todo bien?']
 
 ```
-##
+## Crear un directorio si no existe 
+```python
+if not os.path.exists(dir_path):
+    os.makedirs(dir_path)
+```
+## Obtener el tamaño de un fichero
+```python
+size = os.path.getsize(file_path)
+```
+## 
 ```python
 ```
 
