@@ -203,12 +203,31 @@ if not os.path.exists(dir_path):
 ```python
 size = os.path.getsize(file_path)
 ```
-## 
+# Para comprobar si una cadena contiene una subcadena
+# puedes usar el operador 'in'
 ```python
+>>> print("hola" in "hola mundo!")
+True
+>>> print("adiós" in "hola mundo!")
+False 
 ```
 
-##
-```
+# Comprobar si un fichero existe
+# Podemos comprobar si un fichero existe o es un directorio
+```python
+import os.path
+>>> print(os.path.isfile("/etc/password.txt"))
+True
+>>> print(os.path.isfile("/etc"))
+False
+>>> print(os.path.isfile("/no/existe"))
+False
+>>> print(os.path.exists("/etc/password.txt"))
+True
+>>> print(os.path.exists("/etc"))
+True
+>>> print(os.path.exists("/no/existe"))
+False
 ```
 ##
 ```
