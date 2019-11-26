@@ -229,6 +229,14 @@ True
 >>> print(os.path.exists("/no/existe"))
 False
 ```
-##
+## Eliminar duplicados de una lista
 ```
+# Eliminar duplicados de una lista
+# preservando el orden
+
+>>> mi_lista = [1, 2, 0, 1, 3, 2]
+>>> added = set()
+>>> unicos = [x for x in mi_lista if not (x in added or added.add(x))]
+>>> unicos
+[1, 2, 0, 3]
 ```
