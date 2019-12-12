@@ -240,3 +240,22 @@ False
 >>> unicos
 [1, 2, 0, 3]
 ```
+# Obtener el día de ayer a partir de la fecha de hoy
+```
+>>> import datetime
+>>> hoy = datetime.datetime.now()
+>>> print(hoy)
+2019-04-07 11:52:58.666659
+>>> ayer = hoy - datetime.timedelta(days=1)
+>>> print(ayer)
+2019-04-06 11:52:58.666659
+```
+# Parsear una cadena a entero o float
+```
+def num(s):
+    try:
+        return int(s)
+    except ValueError:
+        return float(s)
+        
+```
