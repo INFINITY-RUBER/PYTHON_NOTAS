@@ -259,3 +259,14 @@ def num(s):
         return float(s)
         
 ```
+# Módulo para el cálculo de funciones estadísticas
+```
+>>> from statistics import mean, median
+>>> mean([1, 2, 3, 4, 4])
+2.8
+>>> median([1, 3, 5, 7])
+4.0
+```
+#
+```
+```
